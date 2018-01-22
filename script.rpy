@@ -20,6 +20,7 @@ define zaffie = Character('Zaffie', color="#014420")
 define peter = Character('Peter', color="#014420")
 
 #Define other variables here
+default job = False #if player tell jill about job
 
 # The game starts here.
 #101
@@ -365,7 +366,8 @@ label scene_110b:
 label scene_111a:
     
     #Downtown (evening)
-    #set telling jill about job to true======================================================================================================================
+    #set telling jill about job to true
+    $ job = True
     alex "Hey, we’ve been swamped at the bakery lately. I know Frannie has been wanting to hire someone. If you want, you can drop a resume off there."
     jill"Really?! I’m gonna give her my resume now! Hope I get the job."
     alex "Don’t worry. I think Frannie will hire you."
@@ -480,7 +482,7 @@ label scene_116:
     "It’s a nice way to relax and can make time fly by."
     "I do a few quests and gain a level but I have work in the morning. Best to get enough sleep."
     
-    #if alex told jill about job======how to boolean in renpy===================================================================================================================================
+    #if alex told jill about job
         #jump scene_117a
         
     #else (wish her luck/hang out with bobby)

@@ -573,6 +573,179 @@ label scene_119:
     calvin "pottery it is"
  
 label scene_120:
+    #Downtown 2 (night)
+    "I meet up with Jill and Calvin at seven, where the two are huddled under a tree. Jill’s bouncing with energy and has a big grin."
+    jill "Alex!! There you are!! Are ya excited?"
+    alex "Yeah, sure. I honestly know nothing about pottery though."
+    calvin "Isn’t it cute that she’s so pumped about something?"
+    "Jill shoves Calvin’s arm, who just grins." 
+    jill "Alex, you don’t seem all too interested about this."
+    alex "Can’t say I’m pumped for pottery. I just enjoy spending time with my friends."
+    jill "Aaaw!"
+    jill "This will be super fun! I promise!"
+    alex "Where is it anyway?"
+    jill "Not too far from here!"
+    "Jill leads us to a messy art studio."
+    "The place was full of retired women in their 60s seated at various tables."
+    "We stick out like a sore thumb, considering the age difference."
+    "We went for table in a corner and waited for the instructor to give everyone instructions."
+    alex "Well jeez, I’m glad we aren’t the only ones who thought this was an awesome way to spend a Saturday night."
+    jill "Come on, Alex. This is gonna be so much fun!"
+    "The instructor begins by showing the newbies, us, how to prepare our clay and start making pots."
+    "About an hour into the class, I noticed a weird sight - another younger person around our age, helping the older ladies."
+    "He looks really comfortable with pottery rather than awkward like Calvin and me."
+    "Jill, who was getting aggravated at her clay, eventually notices us staring, and looks up, raising an eyebrow."
+    jill "Is that Jason Todd?"
+    calvin "Jason?"
+    jill "Yeah, Jason Todd from school. You know, the guy on the hockey team."
+    calvin "Is that why he looks familiar? The Jason Todd?"
+    jill "Yeah. This is the last place I would’ve expected him to be." 
+    alex "He looks so in his element too."
+    "Jason glances over with a small smile, probably expecting there to be more cute little old ladies. His smile disappears when he sees us instead."
+    "Jill gives me a shrug, her face full of confusion. Calvin snickers a little, but we decide to go back inside and focus on our projects, making pots not even our own grandmothers could be proud of."
+    "When the class was over, we cleaned our hands and went outside."
     
-    "120"
- 
+    #Downtown 2 (night)
+    "We leave the studio. Before we can leave the area Jason catches up to us."
+    jason "So… Listen… About this… you can’t tell anyone you saw me here. You got that?"
+    jill "Umm what?"
+    
+    menu:
+        "Promise to tell no one.":
+            jump scene_121a
+            
+        "Tell him you will do what you want.":
+            jump scene_121b
+            
+label scene_121a:
+    #Downtown 2 (night)
+    alex "I mean, yeah. We don’t even hang out with the same people. What you do is your business."
+    calvin "Sure, not like we talk about you anyways."
+    jill "Yeah, chill, man. We’ve got better things to do with our lives."
+    "Any sign of threat vanishes when he smiles and claps Calvin on the shoulder."
+    jason "Thanks! I owe ya one!"
+    "With a grin and a small wave, he goes back into the studio and helps one of the old ladies."
+    jill "That was weird."
+    calvin "Yeah, why does he want to be all secretive about being here?"
+    alex "Can’t say I know."
+    
+    jump scene_122
+    
+label scene_121b:
+    #Downtown 2 (night)
+    alex "Come on, it’s just a pottery class. Besides, you can’t tell me what to do."
+    jason "You’d better not tell anyone--."
+    jill "Why?"
+    jason "That would be very bad."
+    jill "Are you freaking threatening us?!"
+    alex "Seriously, dude. It’s not that big of a deal. Who would we even tell?"
+    calvin "We don’t even know your friends."
+    jason "Please just don’t tell anyone."
+    "He walks away looking agitated."
+    jill "What’s his problem?"
+    calvin "Guy probably thinks doing pottery ruins his reputation or some shit."
+    jill "Well I don’t care if he thinks he’s too cool for pottery, that was just rude."
+
+label scene_122:
+    #Downtown 2 (night)
+    jill "Anyways, pottery was great! Look at my amazing work!"
+    "Calvin holds up his pot beside Jill’s."
+    calvin "At least my lid fits on properly."
+    jill "Hey! Mine is just aesthetic."
+    alex "Is that what they call that now?"
+    "We exchange blows with each other about our shitty pottery."
+    jill "Have a safe walk home!"
+    calvin "I’ll text you later!"
+    alex "See you two later. I had fun tonight!"
+
+label scene_123:
+    #Residential street (night)
+    "I start heading home. The streets look really different at night."
+    "It was so weird seeing Jason at the pottery class, but he does seem to genuinely enjoy himself there. In fact, his skills are pretty good and I don’t think the teacher can teach him any more."
+    "What made him so interested in pottery and interacting with the old ladies?"
+    "Also, why does he want to keep it a secret? He’s really sweet and kind to the people there."
+    "I decide to drop the topic of Jason when I walk into my house."
+    
+    #Bedroom (night)
+    "Pottery is weirdly exhausting. After cleaning my hands some more and changing my clothes, I browsed some pottery pieces on Falln until I couldn’t keep my eyes open anymore."
+
+label scene_124:
+    #Bedroom
+    "I wake up in the morning, and take my time getting out of bed."
+    "After playing on my computer for a little while, I try and figure out something to do instead of being home all day."
+    
+    #Phone==================================================================================================================================================================================
+    "As if on cue, I got a text from Bobby."
+    bobby "meet me at the skate park right now? I need to ask you something :P"
+    "That’s strange and I don’t know how to feel about that :P face."
+    alex "Sure Bobby. See you there."
+
+label scene_125:
+    #Gary’s Skatepark (day)
+    "Bobby was boarding in the park when I arrived. He came over as soon as he saw me."
+    bobby "Yo Alex!"
+    alex "What’s up? Why did you asked me to come here so early?"
+    bobby "So, I met this really cute girl the other day."
+    alex "Oh yeah?"
+    bobby "And I actually got her to give mer her phone number!"
+    "He didn’t drag me all the way out here just to tell me about his date did he?"
+    bobby "So I’m going on a date with her this Friday. But here's the thing..."
+    bobby "She has a friend who kind of has difficulty getting dates."
+    "I stare blankly at him, clearly not getting his point."
+    bobby "So she’s bringing them too…"
+    bobby "And I need to bring someone too. Like a double date."
+    "A double date…?"
+    alex "I… I don’t think that’s a good idea."
+    bobby "Please Alex! It’s just a date! It’s not like you have to kiss or marry her friend."
+    bobby "Hell, you don’t have to hold hands. I just need to bring someone with me."
+    "I sigh, seeing how eager he is. I mean, I guess it wouldn’t be too bad."
+    bobby "Please Alex. For me?"
+    "For a friend like Bobby, sure. And who knows, I might make a new friend too."
+    alex "Alright."
+    bobby "Thank you so much dude! I owe you so much! Anything you need dude, I got you!"
+    
+label scene_126:
+    #Residential Street
+    "After saying goodbye to Bobby, I begin my walk back home."
+    "I’m filled with a weird amount of excitement, and a bit of nervousness. It’s been years since I’ve been on a date."
+    "Yet this is the kind of nervousness I knew I shouldn’t be feeling about a double date."
+    "I honestly didn’t expect that from Bobby, but at least it’s not anything seriously bad." 
+    
+    #Kitchen
+    "I watch TV for most of the day until dinner. After I enjoyed another meal with family, I went back upstairs to play WoG."
+    
+    #Bedroom (night)
+    "After gaming well into the middle of the night, my eyes start to ache, so I log off and get into bed."
+    "As I lie in bed, I can’t help but think about the double date."
+    "I have never really gotten into the huge hype about dating."
+    "Do people really feel an intense urge to date someone?"
+    "I mean it’ll be great to have someone you trust and can lean on, but that didn’t end well last time."
+    "I guess it may have been my fault. I feel kinda clueless about this stuff."
+    "I wish I could ask Calvin or Jill about this stuff. But how do I do that without the whole conversation being awkward?"
+    "Those two have been together forever. As long as I have known them. They probably never feel awkward about their relationship."
+    "My thoughts quickly become less and less coherent until I fall asleep."
+
+label scene_127:
+    #Downtown 1
+    "Today is the day of the date. Bobby and I agreed to meet early. He is probably as nervous as I am."
+    "I head downtown, feeling a nervous knot growing in my stomach."
+    "Finally, I see Bobby in the crowd. Is that a cat hanging over his shoulder?"
+    bobby "Hey! If it’s not the guest of honor."
+    alex "Oh man… Don’t say that."
+    bobby "I’m only joking dude."
+    alex "A cat?"
+    bobby "Yeah! Look how big she is. I figured she could break the ice on our date!"
+    alex "Hm. Yeah, I mean… Not a lot of people bring a cat on a date."
+    bobby "Well, after feeding her for a while she wouldn’t leave me alone. So I’ve kept her with me since."
+    alex "You’re a dork. You know that right?"
+    bobby "Yup. A true dork. You ready for this?"
+    alex "I’m only here because you asked me to come."
+    "Bobby looked like he was happy that he was able to find someone to bring to the double date, but upset that I wouldn’t be having a good time." 
+    bobby "Well, thank you for coming! It honestly means a lot to me!"
+    "Honestly, I’m still kinda on the fence about this whole dating thing, but I’m happy that Bobby is looking forward to this. I don’t think he’s ever had a date before."
+    alex "Bobby, you’ve never been on a date before have you?"
+    bobby "No. Is it that obvious?"
+    alex "Yeah. Remember that time poor little Leah asked you out and you turned her down?"
+    bobby "That was a long time ago. She was too girly. Flowers and dresses all the time."
+    alex "And how about your date today?"
+    bobby "Gwen? She’s punk. She likes all my favourite bands."

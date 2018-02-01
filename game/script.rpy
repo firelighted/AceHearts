@@ -19,6 +19,12 @@ define misty = Character('Melanie', color="#014420")
 define zaffie = Character('Zaffie', color="#014420")
 define peter = Character('Peter', color="#014420")
 
+image peter = "Peter.png"
+image feeniks = "Feeniks.png"
+image misty = "Misty.png"
+image kaitlyn = "Kaitlyn.png"
+
+define audio.Farmer = "Farmer.ogg"
 #Define other variables here
 define job = False #if player tell jill about job
 
@@ -29,14 +35,14 @@ label start:
     # Start by playing some music.
     # play music  #place holder
 
-    scene bg lecturehall #place holder
+    scene bg black #place holder
     with fade
     
     "*Groans*"
     "I should have remembered to close the blin…"
     "Shit, what time is it?! 8:00?!"
     "Why didn’t someone wake me up?!"
-    #"Wait,{p=1.0} no,{p=1.0} it's summer vacation.\n Phew, thought I was going to be in a lot of trouble"
+    "Wait,{p=1.0} no,{p=1.0} it's summer vacation.\n Phew, thought I was going to be in a lot of trouble"
     "I need to get dressed and pack my bag. I don’t remember doing any homework."
     "Where’s my phone? Why the fuck didn’t I set an alarm? It’s---oh. Shit. It’s summer."
 
@@ -66,7 +72,7 @@ label wake:
     "Dad should be at work, and Sarah and Mom both sleep in until the afternoon."
     "I’mma head downstairs and figure out what’s going on."
 
-    #kitchen bg
+    scene bg kitchen
     debbie "Morning Alex! We’re making bacon and eggs. How do you want yours done?"
     alex "Sunnyside up? I’ll put in some toast."
     sarah "Already put it in. Mom always asks how you like yours but I know you always eat them the same way."
@@ -86,11 +92,10 @@ label scene_103:
     scene bg club #place holder
     with fade
 
-    #bedroom bg
+    scene bg black
     "It was a chill morning. I played World of Guildcraft for a few hours before I got a text from Jill."
     
-    #phone bg===============================================================================================================================
-    #how should we write phone texts
+    scene bg texting#place holder
     jill "wanna hang at java house? :D me n cal are goin there @ 11am"
     "Sounds better than more grinding in WoG. I should take a break."
     "I’ll get dressed and head over."
@@ -99,7 +104,7 @@ label scene_103:
     
 label scene_104:
     
-    #bedroom bg
+    scene bg black
     "I put on whatever is at the top of my pile of clothes and head out."
     
     #Residential street
@@ -108,7 +113,7 @@ label scene_104:
     #downtown 1
     "It’s still cool in the shade but it’s warm in the sun. I still prefer spring and fall."
     
-    #java house
+    scene bg java house
     "By the time I get to the cafe, Jill and Calvin are already there."
     jill "Hey Alex, we’re over here."
     "She waves me over vigorously. So I make my way to their table."
@@ -143,7 +148,7 @@ label scene_104:
     
 label scene_105a:
 
-    #java house
+    scene bg java house
     "I don’t feel like getting crushed in Magick right now."
     alex "Let’s go see the movie."
     calvin "Wait. You actually sided with me for once?!"
@@ -151,7 +156,7 @@ label scene_105a:
     alex "Or maybe I just don’t want to build a deck worth hundreds of dollars."
     "Jill shrugs."
         
-    #Outside of Rockridge Cinema#
+    scene bg black
     "We watched the movie...much to Jill’s dismay. The movie was awful..."
     "Just terrible."
     "We all regretted seeing it and Jill was oddly quiet until we exited the theater."
@@ -171,13 +176,13 @@ label scene_105a:
 
 label scene_105b:
     
-    #Java House (morning)
+    scene bg java house#morning
     alex "That movie sounds too terrible. Even for me."
     alex "I’d rather lose at Magick."
     jill "See, I knew Alex would side with me."
     calvin "As always."
     
-    #The Door’s a Mimic
+    scene bg black
     "It’s not a long walk to The Door’s a Mimic. The store is small but it has a cozy feel. There are a few groups of people playing various games around the tables."
     jill "Let’s find a fourth and play some Supreme Leader Magick."
     calvin "Sure. I have some new tech that will allow me to defeat you."
@@ -205,7 +210,7 @@ label scene_105b:
 
 label scene_106:
     
-    #Kitchen (evening)
+    scene bg kitchen#(evening)
     "When I got home it smelled of veggie stir fry."
     "I went to my room. Sarah apparently heard me and peeked in."
     sarah "Hey. Do you know what we’re doing for dinner?"
@@ -216,12 +221,12 @@ label scene_106:
     alex "Oh yeah? I'll have to check it out."
     sarah "Let me know when you do so you can add me!"
     
-    #Bedroom (evening)
+    scene bg black
     "She gave a quick wave before sliding out of the room. I relaxed into my chair, and turned on my computer."
     "After spending a little bit watching videos about the new meta in World of Guildcraft, Mom called us down for dinner."
     "It smells really good actually."
     
-    #Kitchen (evening)
+    scene bg kitchen#(evening)
     debbie "Alex, isn’t there an orientation day for your university coming up? Remind us when it is, and maybe we can give you a ride there."
     sarah "Oh! I want to go too!"
     gregory "I don’t see why not. Why don’t we all go?"
@@ -236,20 +241,20 @@ label scene_106:
     gregory "That doesn’t work for me. I took some shifts for Jenny at work. Her husband is having surgery. Some other time perhaps."
     "The rest of the dinner was in comfortable silence. At the end, I cleared my dishes and excused myself."
                                                                      
-    #Bedroom (night)
+    scene bg black
     "I didn’t feel like WoG, so I decided to watch some Planet Globe II before bed."
     
 label scene_107:
     
-    #Bedroom (morning)
+    scene bg black
     "I turn off my alarm clock and sit up, stretching before I start to get ready."
     "Since there’s no special dress code, I just put on some clean clothes."
     "I brush my teeth, and head downstairs to scrounge for something to eat."
     
-    #Kitchen (morning)
+    scene bg kitchen
     "I’m too lazy to make anything, so I eat the leftover stir fry before I go to work."
     
-    #Downtown (2, morning)
+    scene bg black
     "It’s a nice morning. The air is still cool and the grass is damp with dew."
     "Judging by the strength of the sun today, though, the walk home will probably be way less pleasant."
     "I make it to work just before my shift starts, jogging up to a small building tucked in the line of shops in town."
@@ -260,7 +265,7 @@ label scene_107:
 
 label scene_108:
     
-    #Frannie’s Bakery
+    scene bg bake
     "It’s already warm inside, with the ovens going and Frannie bringing out tarts fresh from the oven."
     frannie "Hey sweetie! Could you start setting up the display?"
     alex "Sure. Just let me get my apron on."
@@ -289,7 +294,7 @@ label scene_109:
     bobby "How about some cinnamon rolls?"
     alex "Hmmm. We’re all out right now but Tom is making more right now. If you don’t mind waiting, you could have some straight from the oven."
     bobby "Hell yeah! I’ll pay for ‘em now."
-    #Register sounds, tapping. It’s a pause. (code in the pause, SV)
+    "{p=1.0}"#Register sounds, tapping. It’s a pause. (code in the pause, SV)(maybe later -SV)
     bobby "You still excited for university?" 
     bobby "Maybe finally get a girlfriend after...y’know?"
     alex "I’m excited to start my bachelor degree, I’m not going there for a relationship."
@@ -311,7 +316,7 @@ label scene_109:
             jump scene_110b
         
 label scene_110a:
-    #Frannie’s Bakery
+    scene bg bake
     alex "Sure! We haven’t hung out in ages. Where do you wanna go?"
     bobby "Let’s go to the skate park! I found a cat there recently."
     bobby "I don’t think it’s got a home. I’ve been feeding it for a week and wanted to show you."
@@ -321,7 +326,7 @@ label scene_110a:
     alex "At three."
     bobby "I’ll go get the tuna and swing by around then."
     
-    #Gary’s Skatepark
+    scene bg black
     "After work, we head over to Gary’s Skatepark. I look around for the cat, but don’t see anything."
     alex "I don’t know Bobby, I don’t see any cats."
     bobby "Should be by the tree over there. At least that’s where I last saw it."
@@ -342,12 +347,12 @@ label scene_110a:
     
 label scene_110b:
     
-    #Frannie’s Bakery (evening)
+    scene bg bake
     alex "Sorry, I really wanna just go home today. I’m exhausted."
     bobby "Oh, alright. I’ll talk to you later then."
     "After I clocked out and said bye to Frannie and Thomas, I left the bakery."
     
-    #Downtown (evening)
+    scene bg black
     "On the way home, I see Jill running up the street toward me, arms full of papers, and one escapes her grip. She jumps up to grab it and pauses in front of me."
     jill "Oh, hey Alex! What’s up? Did your shift just end?"
     alex "Yeah. What’s with the stack of paper?"
@@ -366,7 +371,7 @@ label scene_110b:
             
 label scene_111a:
     
-    #Downtown (evening)
+    scene bg black
     #set telling jill about job to true
     alex "Hey, we’ve been swamped at the bakery lately. I know Frannie has been wanting to hire someone. If you want, you can drop a resume off there."
     jill"Really?! I’m gonna give her my resume now! Hope I get the job."
@@ -378,7 +383,7 @@ label scene_111a:
 
 label scene_111b:
 
-    #Downtown (evening)
+    scene bg black
     alex "Good luck on the job hunt! I’m sure you’ll find something."
     jill "Thanks! Whoops, I really gotta run. I’m almost late for my next interview. See you later!"
     alex "See ya! Hope you do well on that interview!"
@@ -388,7 +393,7 @@ label scene_111b:
 
 label scene_112:
 
-    #Kitchen (evening)
+    scene bg kitchen
     alex "Mom, dad, I’m home!"
     "After greeting my family, I changed into comfortable clothes and sat down to unwind in front of the TV. Soon after, my mom walked into the room."
     debbie "Alex, sweetheart. I know you just got home, but could you please go to the store? Your father forgot to pick up the milk and potatoes on the way home."
@@ -399,10 +404,13 @@ label scene_112:
 
 label scene_113:
     
-    #Grocery store inside
+    scene bg black
     "The store isn’t far from our house, so I get there rather quickly." 
     "I went straight for what I needed. I got a bag of homogenized milk and got a small sack of potatoes."
-    "I get to the checkout and find myself in line beside someone from my school, Peter. I don’t know him well, just that he lives on a farm."
+    "I get to the checkout and find myself in line beside someone from my school, Peter."
+    show peter
+    play music Farmer
+    "I don’t know him well, just that he lives on a farm."
     "He recognizes me, too, but we stand in an awkward silence."
     
     menu:
@@ -414,7 +422,8 @@ label scene_113:
             
 label scene_114a:
     
-    #Grocery store
+    scene bg black
+    show peter
     "Peter was a pretty nice guy in school, and talking to him can pass the time waiting in line. I decide to break the awkward silence."
     alex "H-"
     peter "H-"
@@ -426,6 +435,7 @@ label scene_114a:
     
 label scene_114b:
     
+    show peter
     "We don’t know each other very well. I don’t really wanna bother him."
     peter "Hey Alex."
     "Oh, apparently he wants to talk to me."
@@ -435,7 +445,8 @@ label scene_114b:
     
 label scene_115:
     
-    #Grocery store
+    scene bg black
+    show peter
     peter "It’s been awhile!!"
     "I awkwardly smile back at him."
     alex "Yeah, it has. How have you been?"
@@ -454,10 +465,10 @@ label scene_115:
     alex "Alright, I’ll keep that in mind. It was nice seeing you again Peter! I should head home. I’m holding up dinner right now."
     peter "Alright, see you around Alex! It was nice catching up!"
     "It was pretty nice to see him. I should tell Mom about his offer."
-
+    stop music
 label scene_116:
     
-    #Kitchen (evening)
+    scene bg black
     alex "I’m back! Here Mom, I got the milk and potatoes."
     debbie "Thank you!"
     "I help out by making the mashed potatoes, and we talk about our days as we cook."
@@ -477,7 +488,7 @@ label scene_116:
     debbie "A trip out there just for some milk?"
     gregory "They have eggs too, and vegetables sometimes! I should talk to Tyler some more. He’s a nice guy."
     
-    #Bedroom (night)
+    scene bg black
     "After dinner, I go to my room to play some WoG."
     "It’s a nice way to relax and can make time fly by."
     "I do a few quests and gain a level but I have work in the morning. Best to get enough sleep."
@@ -492,7 +503,7 @@ label scene_116:
 
 label scene_117a:
     
-    #Frannie’s Bakery (morning)
+    scene bg bake
     "I get to work in the morning and start setting up. About thirty minutes before we open, the bell rings and I look up to see who’s here."
     "We aren’t open yet. Who’s..."
     "Jill is poking her head through the door, looking around nervously. When she sees me, she smiles and comes inside."
@@ -503,8 +514,7 @@ label scene_117a:
     jill "Yeah, and it’s thanks to you!"
     "I spend the morning showing Jill what to do."
     "She is nervous at the start and drops a few muffins. Though by noon, she handles the register pretty well."
-    
-    #Frannie’s Bakery (afternoon)
+    "{p=1.0}"
     "The bell rings as someone leaves. As they leave someone else slips in through the open door."
     calvin "Hey Jill!"
     jill "Calvin?"
@@ -537,11 +547,9 @@ label scene_117b:
     
 label scene_118:
     
-    #Bedroom (night)
+    scene bg black
     "After a long day at work, I guess I could spend some time playing World of Guildcraft. NekoMami37 should be online around this time."
-    
-    #Computer Screen=======================================================================================================================================
-    #how should we write computer messages?
+    scene bg copmuter
     "Alexorous: Hey. You up for some questing?"
     "NekoMami37: one sec, parents left me to scrounge dinner"
     "Alexorous: All right, I’ll meet you at Wildland Outpost."
@@ -554,11 +562,11 @@ label scene_118:
   
 label scene_119:
     
-    #Bedroom (morning)
+    scene bg black
     "Nothing exciting happened for the next few days."
     "Should I try to get some of my friends to hang out later?"
-                                                                               
-    #Phone==================================================================================================================================================
+    "{p=1.0}"
+    scene bg texting
     jill "hey i signed us up 4 pottery classes! :D:D:D"
     calvin "wh...pottery classes?"
     alex "why?"
@@ -573,7 +581,7 @@ label scene_119:
     calvin "pottery it is"
  
 label scene_120:
-    #Downtown 2 (night)
+    scene bg black
     "I meet up with Jill and Calvin at seven, where the two are huddled under a tree. Jill’s bouncing with energy and has a big grin."
     jill "Alex!! There you are!! Are ya excited?"
     alex "Yeah, sure. I honestly know nothing about pottery though."
@@ -605,7 +613,7 @@ label scene_120:
     "Jill gives me a shrug, her face full of confusion. Calvin snickers a little, but we decide to go back inside and focus on our projects, making pots not even our own grandmothers could be proud of."
     "When the class was over, we cleaned our hands and went outside."
     
-    #Downtown 2 (night)
+    scene bg black
     "We leave the studio. Before we can leave the area Jason catches up to us."
     jason "So… Listen… About this… you can’t tell anyone you saw me here. You got that?"
     jill "Umm what?"
@@ -674,14 +682,14 @@ label scene_124:
     "I wake up in the morning, and take my time getting out of bed."
     "After playing on my computer for a little while, I try and figure out something to do instead of being home all day."
     
-    #Phone==================================================================================================================================================================================
+    scene bg texting
     "As if on cue, I got a text from Bobby."
     bobby "meet me at the skate park right now? I need to ask you something :P"
     "That’s strange and I don’t know how to feel about that :P face."
     alex "Sure Bobby. See you there."
 
 label scene_125:
-    #Gary’s Skatepark (day)
+    scene bg black
     "Bobby was boarding in the park when I arrived. He came over as soon as he saw me."
     bobby "Yo Alex!"
     alex "What’s up? Why did you asked me to come here so early?"
@@ -711,7 +719,7 @@ label scene_126:
     "Yet this is the kind of nervousness I knew I shouldn’t be feeling about a double date."
     "I honestly didn’t expect that from Bobby, but at least it’s not anything seriously bad." 
     
-    #Kitchen
+    scene bg kitchen
     "I watch TV for most of the day until dinner. After I enjoyed another meal with family, I went back upstairs to play WoG."
     
     #Bedroom (night)

@@ -113,7 +113,7 @@ label scene_104:
     #downtown 1
     "It’s still cool in the shade but it’s warm in the sun. I still prefer spring and fall."
     
-    scene bg java house
+    scene bg coffeeshop
     "By the time I get to the cafe, Jill and Calvin are already there."
     jill "Hey Alex, we’re over here."
     "She waves me over vigorously. So I make my way to their table."
@@ -148,7 +148,7 @@ label scene_104:
     
 label scene_105a:
 
-    scene bg java house
+    scene bg coffeeshop
     "I don’t feel like getting crushed in Magick right now."
     alex "Let’s go see the movie."
     calvin "Wait. You actually sided with me for once?!"
@@ -176,7 +176,7 @@ label scene_105a:
 
 label scene_105b:
     
-    scene bg java house#morning
+    scene bg coffeeshop#morning
     alex "That movie sounds too terrible. Even for me."
     alex "I’d rather lose at Magick."
     jill "See, I knew Alex would side with me."

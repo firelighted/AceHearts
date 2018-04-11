@@ -108,6 +108,7 @@ label scene_104:
     "I put on whatever is at the top of my pile of clothes and head out."
     
     #Residential street
+    scene bg street
     "I hadn’t realized that summer had gotten so busy because of my schoolwork. People are out walking their dogs and running before it gets too hot."
     
     #downtown 1
@@ -714,6 +715,7 @@ label scene_125:
     
 label scene_126:
     #Residential Street
+    scene bg street
     "After saying goodbye to Bobby, I begin my walk back home."
     "I’m filled with a weird amount of excitement, and a bit of nervousness. It’s been years since I’ve been on a date."
     "Yet this is the kind of nervousness I knew I shouldn’t be feeling about a double date."

@@ -73,10 +73,12 @@ label wake:
     "I’mma head downstairs and figure out what’s going on."
 
     scene bg kitchen
+    show sarah relaxed at right
     debbie "Morning Alex! We’re making bacon and eggs. How do you want yours done?"
     alex "Sunnyside up? I’ll put in some toast."
     sarah "Already put it in. Mom always asks how you like yours but I know you always eat them the same way."
     alex "Uhm, thanks… But why are you up so early?"
+    show sarah happy
     sarah "Mom’s taking me and my friends to the beach right after breakfast."
     debbie "Yeah, Alex would you like to come with us?"
     "I’d rather spend my day on my computer than waste it at the beach."
@@ -214,10 +216,13 @@ label scene_106:
     scene bg kitchen#(evening)
     "When I got home it smelled of veggie stir fry."
     "I went to my room. Sarah apparently heard me and peeked in."
+    show sarah surprised at right
     sarah "Hey. Do you know what we’re doing for dinner?"
     alex "Uh… Veggie stir fry."
+    show sarah awkward
     sarah "Oh, cool… Uhh… How was your day?"
     alex "Okay. Hung out with Jill and Calvin. How about you?"
+    show sarah happy
     sarah "I was playing the new video game, Undersee. It's actually really good."
     alex "Oh yeah? I'll have to check it out."
     sarah "Let me know when you do so you can add me!"
@@ -229,10 +234,12 @@ label scene_106:
     
     scene bg kitchen#(evening)
     debbie "Alex, isn’t there an orientation day for your university coming up? Remind us when it is, and maybe we can give you a ride there."
+    show sarah happy at right
     sarah "Oh! I want to go too!"
     gregory "I don’t see why not. Why don’t we all go?"
     debbie "That’s a great idea honey."
     gregory "Say Sarah, have you thought about what you want to do? Maybe you want you to go to med school like your brother?"
+    show sarah relaxed at right
     sarah "I haven’t really put much thought into it. I'm sure they’ll pressure me enough in grade 12 to pick something."
     debbie "I’m sure you’ll find something. Alex, if you need any more furniture for your dorm, let us know."
     alex "Oh, uh, thanks. I’m hoping to get a decent desk chair with my next paycheck."
@@ -476,8 +483,10 @@ label scene_116:
     "Soon it’s time to eat."
     gregory "Mmmm mashed potatoes. My favourite!"
     debbie "So how’s everyone doing tonight?"
+    show sarah happy at right
     sarah "I found out that the new season of How To Go Out With A Murderer is coming out this next Thursday. I’m so excited! I’m going to rewatch the first season."
     debbie "How To Go Out With A Murderer? I don’t know if you should be watching a show like that."
+    show sarah awkward at right
     sarah "Mom, I’m 15."
     gregory "Yeah, our children are both growing up now. Also I really like that show too! You should watch it with us, Deb!"
     debbie "I will not. How about your day, Alex?"

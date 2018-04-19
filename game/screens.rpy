@@ -4,7 +4,7 @@
 
 init offset = -1
 
-
+$textbox_opacity = 50
 ################################################################################
 ###################################Styles#######################################
 ################################################################################
@@ -743,7 +743,13 @@ style slot_button_text:
 ## The preferences screen allows the player to configure the game to better suit
 ## themselves.
 
-
+init python:
+    renpy.register_style_preference("window", "100%", style.window, "background", Frame('gui/textbox.png', 12, 12))
+    renpy.register_style_preference("window", "75%", style.window, "background", Frame(im.MatrixColor('gui/textbox.png', im.matrix.opacity(.75)), 12,12))
+    renpy.register_style_preference("window", "50%", style.window, "background", Frame(im.MatrixColor('gui/textbox.png', im.matrix.opacity(.5)), 12,12))
+    renpy.register_style_preference("window", "25%", style.window, "background", Frame(im.MatrixColor('gui/textbox.png', im.matrix.opacity(.25)), 12,12))
+    
+    
 screen preferences():
 
     tag menu
@@ -781,6 +787,15 @@ screen preferences():
                     textbutton _("Unseen Text") action Preference("skip", "toggle")
                     textbutton _("After Choices") action Preference("after choices", "toggle")
                     textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
+                    
+                vbox:
+                    style_prefix "radio"
+                    label _("Textbox Opacity")
+                    textbutton "100%" action StylePreference("window", "100%")
+                    textbutton "75%" action StylePreference("window", "75%")
+                    textbutton "50%" action StylePreference("window", "50%")
+                    textbutton "25%" action StylePreference("window", "25%")
+
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
@@ -800,6 +815,11 @@ screen preferences():
                     label _("Auto-Forward Time")
 
                     bar value Preference("auto-forward time")
+                    
+#                    label _("Textbox Opacity")
+
+#                    bar value VariableValue("textbox_opacity", 100)
+
 
                 vbox:
 

@@ -6,7 +6,6 @@ define debbie = Character('Debbie', color="#014420")
 define gregory = Character('Gregory', color="#014420")
 
 define jill = Character('Jillian', color="#014420")
-define jillian = jill
 define calvin = Character('Calvin', color="#014420")
 define bobby = Character('Bobby', color="#014420")
 define gwen = Character('Gwen', color="#014420")
@@ -386,7 +385,7 @@ label scene_110b:
 
     menu:
         "Tell her Frannie’s hiring.":
-            $ job = True
+            $ job = True #set telling jill about job to true
             jump scene_111a
 
         "Wish her luck.":
@@ -395,7 +394,6 @@ label scene_110b:
 label scene_111a:
     
     scene bg black
-    #set telling jill about job to true
     alex "Hey, we’ve been swamped at the bakery lately. I know Frannie has been wanting to hire someone. If you want, you can drop a resume off there."
     jill"Really?! I’m gonna give her my resume now! Hope I get the job."
     alex "Don’t worry. I think Frannie will hire you."
@@ -469,7 +467,7 @@ label scene_114b:
 label scene_115:
     
     scene bg black
-    show peter
+    show peter at right
     peter "It’s been awhile!!"
     "I awkwardly smile back at him."
     alex "Yeah, it has. How have you been?"
@@ -833,7 +831,7 @@ label scene_128a: # Female Alex
     bobby "Hey, you kids have fun. I’m going to walk Gwen home. Stay safe."
     alex "And with that, he walked off with Gwen into the night."
     alex "I smiled awkwardly at Kaitlyn, who looked back at me. I finally decided to break the silence."
-    jump scene_129a #?
+    jump scene_129a #? (this is for female alex, i assume scene_129a is for male/NB - SV)
 
 label scene_128b: # Male, NB Alex
     alex "We arrived at the restaurant, it’s a cute pizza and milkshake parlour."
@@ -842,8 +840,8 @@ label scene_128b: # Male, NB Alex
     alex "I look at the girl next to her and the knot in my stomach gets a little tighter."
     alex "I know her."
     alex "Very well in fact."
-    bobby "{Happy"
-    gwen "{Happy"
+    bobby "{Happy" #what is this supposed to do?
+    gwen "{Happy" #this too, jeepers people, it's not hard, it's scripting not coding :P
     kaitlyn "Alex?"
     alex "Oh… Hi Kaitlyn."
     alex "I can feel my face heat up. I’m really nervous now."
@@ -880,9 +878,11 @@ label scene_128b: # Male, NB Alex
     alex "I smiled awkwardly at Kaitlyn, who also stared at me awkwardly.  I finally decided to break the silence."
     menu:
         "That was fun.":
-            jump scene_128b_1
+            jump scene_130
+            # jump scene_128b_1 #look idk what the script says, i didn't read it past like, scene 20, but if there's supposed to be extra scenes here---
         "We should do this again sometime.":
-            jump scene_128b_2
+            jump scene_130
+            # jump scene_128b_2 #eiter put them in on the next push or so, or tell me i need to do this. This breaks it, rn, gonna fix
 
 label scene_129a: #female Alex
     # Downtown, night
@@ -954,7 +954,9 @@ label scene_133a: #133a
     alex "And one of them is dressed up as a wizard? interesting"
 
 label scene_134b: #134b (this formatting i swear to josh)
-    # [Gregory has disappeared. Sarah wants to go to do yoga. The room for yoga is off the same space as the tabletop and LGBT clubs. The rooms are unlabeled but Alex sees a group playing in one of the rooms. Sarah says she is going to yoga and Debbie is going to find Gregory. They will pick Alex up when they are done. Sarah leads this scene.[h]]
+        # [Gregory has disappeared. Sarah wants to go to do yoga. The room for yoga is off the same space as the tabletop and LGBT clubs.
+        #The rooms are unlabeled but Alex sees a group playing in one of the rooms. Sarah says she is going to yoga and Debbie is going to find Gregory.
+        #They will pick Alex up when they are done. Sarah leads this scene.[h]]
     # Campus 2
     scene bg black
     sarah "Hey I really want to go check out the yoga club. Do you remember where it is?"
@@ -969,7 +971,9 @@ label scene_134b: #134b (this formatting i swear to josh)
     alex "I walk Sarah to the yoga club and leave to go to the tabletop room. I passed a room, in which there is a group of people playing something… and one of them is dressed up as a wizard? interesting."
 
 label scene_135: #135
-    # [Alex looks into the room with the people playing D&D. They realize that the room has the pride flag in it and turns to leave but the wizard runs up and grabs them to come play D&D. The party is missing a key role. What will Alex be?]
+        # [Alex looks into the room with the people playing D&D.
+        #They realize that the room has the pride flag in it and turns to leave but the wizard runs up and grabs them to come play D&D.
+        #The party is missing a key role. What will Alex be?]
     # LGBT Club
     scene bg black
     alex "Hmm, I wonder what they are doing."
@@ -996,7 +1000,7 @@ label scene_135: #135
         "2: Rogue.":
             jump scene_136b
 
-label scene_136a: #136a
+label scene_136a: #136a (who keeps labeling these twice? -SV)
     # Fantasy world
     scene bg black
     feeniks "The party opens the huge double doors. Inside is a giant chamber lit by large fires. Dwarven runes line the walls and pillars."
@@ -1037,7 +1041,7 @@ label scene_136b: #136b
     feeniks "You feel the tumblers click into place. The door opens and you are pulled out of the room as the water rushes into the hallway."
 
 label scene_137: #137
-    # Fantasy World*[i
+    # Fantasy World*[i (What is this for? -SV)
     scene bg black
     zaffie "Misty, you’ve gotta cast Charm Person!"
     misty "What?"
@@ -1073,7 +1077,7 @@ label scene_138: #138
     alex "We make our way to the parking lot to get in our car. Then, we went straight home."
 
 label scene_139: #139
-    # [Alex’s thoughts fill us in on the drive back and such. They decide to investigate asexuality on the computer.]
+        # [Alex’s thoughts fill us in on the drive back and such. They decide to investigate asexuality on the computer.]
     # Bedroom
     scene bg bedroom
     alex "On the way back home, everyone shared their thoughts on the tour of the university."

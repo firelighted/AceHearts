@@ -32,7 +32,11 @@ Programmed By: """)
 define build.name = "summer_horizon"
 
 ## Change the version used by the build system.
-define build.version = "7.0"
+define build.version = "7.1"
+
+### Change the resolution of the screen
+#define config.screen_width = 1280
+#define config.screen_height = 720
 
 ## Sounds and music ############################################################
 ## These three variables control which mixers are shown to the player by

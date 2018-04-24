@@ -7,7 +7,7 @@ define config.name = _("Summer Horizon")
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False because i'm pretty sure its backed into the background image.
 ## Change if needed.
-define gui.show_name = False 
+define gui.show_name = True 
 
 ## The version of the game.
 define config.version = _("Ren'Py 7 Edition")
@@ -32,7 +32,7 @@ Programmed By: """)
 define build.name = "summer_horizon"
 
 ## Change the version used by the build system.
-define build.version = "7.1"
+define build.version = "7.1.1 Playtest"
 
 ### Change the resolution of the screen
 #define config.screen_width = 1280

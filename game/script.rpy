@@ -43,6 +43,10 @@ define nbAlex = False
 
 # Also 129b_1 = 129a right now
 
+#TIP FOR PEOPLE LOOKING TO ADD TO THE SCRIPT - IMPORTANT, PLEASE READ - TIP FOR PEOPLE LOOKING TO ADD TO THE SCRIPT#
+#if its narration, don't tag alex. If it's spoke, tag alex
+#TIP FOR PEOPLE LOOKING TO ADD TO THE SCRIPT - IMPORTANT, PLEASE READ - TIP FOR PEOPLE LOOKING TO ADD TO THE SCRIPT#
+
 # The game starts here.
 #101
 label start:
@@ -779,13 +783,13 @@ label scene_127:
     bobby "Yeah! Look how big she is. I figured she could break the ice on our date!"
     alex "Hm. Yeah, I mean… Not a lot of people bring a cat on a date."
     bobby "Well, after feeding her for a while she wouldn’t leave me alone. So I’ve kept her with me since."
-    alex "You’re a dork. You know that right?"
+    alex "You’re a dork, you know that, right?"
     bobby "Yup. A true dork. You ready for this?"
     alex "I’m only here because you asked me to come."
     "Bobby looked like he was happy that he was able to find someone to bring to the double date, but upset that I wouldn’t be having a good time." 
     bobby "Well, thank you for coming! It honestly means a lot to me!"
     "Honestly, I’m still kinda on the fence about this whole dating thing, but I’m happy that Bobby is looking forward to this. I don’t think he’s ever had a date before."
-    alex "Bobby, you’ve never been on a date before have you?"
+    alex "Bobby, you’ve never been on a date before, have you?"
     bobby "No. Is it that obvious?"
     alex "Yeah. Remember that time poor little Leah asked you out and you turned her down?"
     bobby "That was a long time ago. She was too girly. Flowers and dresses all the time."
@@ -806,12 +810,12 @@ label scene_127:
     # Also 129b_1 = 129a right now
     
 label scene_128a: # Female Alex
-    alex "We arrived at the restaurant. It’s a cute pizza and milkshake parlour."
-    alex "They have an ice cream freezer showing off flavors, and the pizza smells incredible."
-    alex "Bobby eventually flags down two girls. One smiles broadly and waves back. That must be Gwen."
-    alex "I look at the girl next to her and the knot in my stomach gets a little tighter."
-    alex "I know her."
-    alex "Very well in fact."
+    "We arrived at the restaurant. It’s a cute pizza and milkshake parlour."
+    "They have an ice cream freezer showing off flavors, and the pizza smells incredible."
+    "Bobby eventually flags down two girls. One smiles broadly and waves back. That must be Gwen."
+    "I look at the girl next to her and the knot in my stomach gets a little tighter."
+    "I know her."
+    "Very well in fact."
     bobby "Hey Gwen!"
     gwen "Hey Bobby! It’s nice to see you again!"
     kaitlyn "Alex?"
@@ -825,75 +829,78 @@ label scene_128a: # Female Alex
     gwen "It’s all right. We can all have a great time together!"
     gwen "Why do you have a cat?"
     bobby "Her name is Dusty!"
-    alex "Bobby started telling Gwen about how he befriended the kitten. I glanced awkwardly Kaitlyn, catching her giving me a quick glance as well."
-    alex "We have been classmates for many years and well… She’s been annoyingly, just a little bit better. A little faster, a little more talented, a little smarter, a little more helpful."
+    "Bobby started telling Gwen about how he befriended the kitten. I glanced awkwardly Kaitlyn, catching her giving me a quick glance as well."
+    "We have been classmates for many years and well… She’s been annoyingly, just a little bit better. A little faster, a little more talented, a little smarter, a little more helpful."
     kaitlyn "So Alex. Are you excited for the film?"
     alex "Sure but we both know it won’t be as good as the book."
     kaitlyn "Of course. But the book is missing some aspects the film has."
     alex "Good music and filmography can make up the gap for sure."
-    alex "After we finish eating, Kaitlyn speaks up."
+    "After we finish eating, Kaitlyn speaks up."
     kaitlyn "Looks like everyone is about done. How about we start going to the theatre? The movie is starting soon."
     gwen "Oh right! Good thing someone was keeping time."
     bobby "Time really flies by when you’re having fun huh?"
     alex "Yeah, let’s get going. I wouldn’t want to miss Lord of Thrones."
 
     #Rockridge Cinemas
-    alex "We arrive at the theatre just in time to get some good seats."
-    alex "As commercials play, Kaitlyn and I talk quietly about what reviews and some internet bloggers have said about the movie."
-    alex "We quiet down when the movie starts and watch intently."
-    alex "Then there are the sex scenes. They were in the book too yes, but that’s different than seeing it on the big screen."
-    alex "Why do movies have these scenes? Apparently, sex sells, but I don’t think these scenes are necessary."
-    alex "They don’t add anything to the plot or anything."
-    alex "It was awkward. Really awkward. To the point I still felt awkward when we walked out of theater.    "
+    "We arrive at the theatre just in time to get some good seats."
+    "As commercials play, Kaitlyn and I talk quietly about what reviews and some internet bloggers have said about the movie."
+    "We quiet down when the movie starts and watch intently."
+    "Then there are the sex scenes. They were in the book too yes, but that’s different than seeing it on the big screen."
+    "Why do movies have these scenes? Apparently, sex sells, but I don’t think these scenes are necessary."
+    "They don’t add anything to the plot or anything."
+    "It was awkward. Really awkward. To the point I still felt awkward when we walked out of theater.    "
 
-    alex "Bobby and Gwen continue to talk to each other. They seem to like each other a lot."
+    "Bobby and Gwen continue to talk to each other. They seem to like each other a lot."
     bobby "Hey, you kids have fun. I’m going to walk Gwen home. Stay safe."
-    alex "And with that, he walked off with Gwen into the night."
-    alex "I smiled awkwardly at Kaitlyn, who looked back at me. I finally decided to break the silence."
+    "And with that, he walked off with Gwen into the night."
+    "I smiled awkwardly at Kaitlyn, who looked back at me. I finally decided to break the silence."
     jump scene_129a 
 
 label scene_128b: # Male, NB Alex
-    alex "We arrived at the restaurant, it’s a cute pizza and milkshake parlour."
-    alex "They have an ice cream freezer showing off flavors, and the pizza smells incredible."
-    alex "Bobby eventually flags down two girls, one smiles broadly and waves back. That must be Gwen."
-    alex "I look at the girl next to her and the knot in my stomach gets a little tighter."
-    alex "I know her."
-    alex "Very well in fact."
+    "We arrived at the restaurant, it’s a cute pizza and milkshake parlour."
+    "They have an ice cream freezer showing off flavors, and the pizza smells incredible."
+    "Bobby eventually flags down two girls, one smiles broadly and waves back. That must be Gwen."
+    "I look at the girl next to her and the knot in my stomach gets a little tighter."
+    "I know her."
+    "Very well in fact."
 
     kaitlyn "Alex?"
     alex "Oh… Hi Kaitlyn."
-    alex "I can feel my face heat up. I’m really nervous now."
+    "I can feel my face heat up. I’m really nervous now."
     gwen "You two know each other?"
     kaitlyn "Yeah. We had a lot of classes together in school."
     gwen "Oh good, no awkward introductions then. We can all have a great time together!"
     gwen "Also Bobby, why do you have a cat?"
     bobby "Her name is Dusty!"
-    alex "Bobby started telling Gwen about how he befriended the kitten. I glanced awkwardly Kaitlyn, catching her giving me a quick glance as well."
-    alex "We have been classmates for many years and well… She’s been annoyingly, just a little bit better. A little faster, a little more talented, a little smarter, a little more helpful."
+    "Bobby started telling Gwen about how he befriended the kitten. I glanced awkwardly Kaitlyn, catching her giving me a quick glance as well."
+    "We have been classmates for many years and well… She’s been annoyingly, just a little bit better. A little faster, a little more talented, a little smarter, a little more helpful."
     kaitlyn "So Alex. Are you excited for the film?"
     alex "Uhh… Yeah but we both know it won’t be as good as the book."
     kaitlyn "Yeah, you’re right. But the book is missing some aspects the film has."
     alex "Good music and filmography can make up the gap for sure."
     kaitlyn "If the trailers were any indication then the music is going to be great."
-    alex "After we finish eating, Kaitlyn speaks up."
+    
+    "After we finish eating, Kaitlyn speaks up."
     kaitlyn "Looks like everyone is about done. How about we start going to the theatre? The movie is starting soon."
     gwen "Oh right! Good thing someone was keeping time."
     bobby "Time really flies by when you’re having fun huh?"
     alex "Yeah, let’s get going. I wouldn’t want to miss Lord of Thrones."
+    
     #Rockridge Cinemas
-    alex "We arrive at the theatre just in time to get some good seats."
-    alex "As commercials play, Kaitlyn and I talk quietly about what reviews and some internet bloggers have said about the movie."
-    alex "We quiet down when the movie starts and watch intently."
-    alex "Then there are the sex scenes. They were in the book too yes, but that’s different than seeing it on the big screen."
-    alex "Why do movies have these scenes? Apparently, sex sells, but I don’t think these scenes are necessary."
-    alex "They don’t add anything to the plot or anything."
-    alex "I see Kaitlyn beside me. She also seems uncomfortable."
-    alex "It was awkward. Really awkward. To the point I still felt awkward when we walked out of theater.    "
+    "We arrive at the theatre just in time to get some good seats."
+    "As commercials play, Kaitlyn and I talk quietly about what reviews and some internet bloggers have said about the movie."
+    "We quiet down when the movie starts and watch intently."
+    "Then there are the sex scenes. They were in the book too yes, but that’s different than seeing it on the big screen."
+    "Why do movies have these scenes? Apparently, sex sells, but I don’t think these scenes are necessary."
+    "They don’t add anything to the plot or anything."
+    "I see Kaitlyn beside me. She also seems uncomfortable."
+    "It was awkward. Really awkward. To the point I still felt awkward when we walked out of theater.    "
+    
     #Rockridge Outside
-    alex "Bobby and Gwen continue to talk to each other. They seem to like each other a lot."
+    "Bobby and Gwen continue to talk to each other. They seem to like each other a lot."
     bobby "Hey, you kids have fun. I’m going to walk Gwen home. Stay safe."
-    alex "And with that, he walked off with Gwen into the night."
-    alex "I smiled awkwardly at Kaitlyn, who also stared at me awkwardly.  I finally decided to break the silence."
+    "And with that, he walked off with Gwen into the night."
+    "I smiled awkwardly at Kaitlyn, who also stared at me awkwardly.  I finally decided to break the silence."
     menu:
         "That was fun.":
             jump scene_129b_1
@@ -908,13 +915,13 @@ label scene_129a: #female Alex
     alex "That’s probably not going to be out for a while."
     kaitlyn "I know, but I’m still going to watch it."
     alex "Same."
-    alex "We spent quite a while talking about the movie and comparing it to the book. Then, we exchanged phone numbers."
-    alex "We decided to walk each other home, talking along the way until we went our separate ways."
+    "We spent quite a while talking about the movie and comparing it to the book. Then, we exchanged phone numbers."
+    "We decided to walk each other home, talking along the way until we went our separate ways."
     
     jump scene_130
     
 label scene_129b_1: # male Alex, made choice 1 in 128
-    jump scene_129a
+    jump scene_129a #temp
 
 label scene_129b_2: #129b_2 (Male Alex) made choice 2 in 128
     # Downtown 2 (night)
@@ -923,47 +930,48 @@ label scene_129b_2: #129b_2 (Male Alex) made choice 2 in 128
     alex "Let’s swap numbers."
     kaitlyn "Sure thing! I think that's a good idea. We can text each other if we think of something else we want to do!"
     alex "Sounds great!"
-    alex "We started to head home talking about various books and movies along the way. Her place is closer to the theatre than mine, so we part ways there."
+    "We started to head home talking about various books and movies along the way. Her place is closer to the theatre than mine, so we part ways there."
     jump scene_130
 
 label scene_130: #130\[c\]\[d\]
     # [Add attraction compatibility based scenes]
-    # [Alex goes to bed but thinks about relationships. Katelyn has been really sweet all this time--but what if their past relationship is how each one ends?[e][f]]
+    # Alex goes to bed but thinks about relationships. 
+    # Katelyn has been really sweet all this time--but what if their past relationship is how each one ends?[e][f]
     # Bedroom
     scene bg bedroom
-    alex "I really enjoyed tonight more than I thought I would. Kaitlyn seems really sweet."
-    alex "I’ve only seen her as a classmate and friend up until this point, but do I really want to see her as more than that?"
-    alex "Do I want a relationship? I mean, Bobby seems to be very happy with Gwen and vice versa. Jill and Calvin also. Idk, I think I’m gonna sleep on it."
+    "I really enjoyed tonight more than I thought I would. Kaitlyn seems really sweet."
+    "I’ve only seen her as a classmate and friend up until this point, but do I really want to see her as more than that?"
+    "Do I want a relationship? I mean, Bobby seems to be very happy with Gwen and vice versa. Jill and Calvin also. Idk, I think I’m gonna sleep on it."
 
 label scene_131: #131 July 13
     # Kitchen
     scene bg black
-    alex "Tomorrow is the university tour, and my whole family is coming along."
+    "Tomorrow is the university tour, and my whole family is coming along."
     debbie "Alex! Are you all prepared for tomorrow? Get all your questions and whatever you need ready!"
     alex "It’s just a tour ma. You don't have to all come."
     show sarah relaxed
     sarah "Hey! I want to go. I want to see what your university is like."
     sarah "I’ve got like nothing to do anyways. It’s the summer, and I’m bored."
     gregory "We’re ALL GOING! We have to support our baby."
-    alex "Stop."
+    alex "Stop." #[ask paul if this is exasperated or not]
     gregory "Well I’m driving the whole gang there tomorrow."
     debbie "Remember we’re heading out early so don’t stay up too late, children."
-    alex "We made sure to pack some water and food in a bag for our trip. Then, we all went to our rooms for the rest of the day."
+    "We made sure to pack some water and food in a bag for our trip. Then, we all went to our rooms for the rest of the day."
     # Bedroom
     scene bg bedroom
-    alex "I’m kinda excited for tomorrow. Lemme set an alarm and go to bed."
+    "I’m kinda excited for tomorrow. Lemme set an alarm and go to bed."
 
 label scene_132: #132 July 14[g]
     # Campus 1
     scene bg black
-    alex "The whole family got to the university campus early morning."
-    alex "We were given the tour of the a lecture hall, dorms, dining hall, gym, yeah."
+    "The whole family got to the university campus early morning."
+    "We were given the tour of the a lecture hall, dorms, dining hall, gym, yeah."
     # Campus 2
     scene bg black
-    alex "After the tour, we are allowed to go wherever we liked."
-    alex "I remembered reading about a tabletop club on the school’s website. Maybe I should go check that out."
-    alex "Or maybe I should find out where Sarah wants to go first."
-    alex "What should I do?"
+    "After the tour, we are allowed to go wherever we liked."
+    "I remembered reading about a tabletop club on the school’s website. Maybe I should go check that out."
+    "Or maybe I should find out where Sarah wants to go first."
+    "What should I do?"
 
     menu:
         "1: Go to the tabletop club.":
@@ -986,19 +994,19 @@ label scene_133a: #133a
 label scene_134b: #134b (this formatting i swear to josh)
     # [Gregory has disappeared. Sarah wants to go to do yoga. The room for yoga is off the same space as the tabletop and LGBT clubs.
     #The rooms are unlabeled but Alex sees a group playing in one of the rooms. Sarah says she is going to yoga and Debbie is going to find Gregory.
-    #They will pick Alex up when they are done. Sarah leads this scene.[h]]
+    #They will pick Alex up when they are done. Sarah leads this scene.[h]
     # Campus 2
     scene bg black
     sarah "Hey I really want to go check out the yoga club. Do you remember where it is?"
     alex "Yeah I can take you there,"
-    alex "The yoga club should be in the same direction as the tabletop and club. I’m not really interested in yoga, so i guess i can just drop Sarah off then leave."
+    "The yoga club should be in the same direction as the tabletop and club. I’m not really interested in yoga, so i guess i can just drop Sarah off then leave."
     debbie "I think Gregory went off to get some food. I’ll go look for him. We’ll meet up later when we’re about to leave, so about 1 hr."
     sarah "Just text dad and ask him where he is. Anyway, see you in an hour mom."
     alex "bye mom"
     debbie "see you, my cutie patooties. ::>"
     # Campus 1
     scene bg black
-    alex "I walk Sarah to the yoga club and leave to go to the tabletop room. I passed a room, in which there is a group of people playing something… and one of them is dressed up as a wizard? interesting."
+    "I walk Sarah to the yoga club and leave to go to the tabletop room. I passed a room, in which there is a group of people playing something… and one of them is dressed up as a wizard? interesting."
 
 label scene_135: #135
     # [Alex looks into the room with the people playing D&D.
@@ -1006,8 +1014,8 @@ label scene_135: #135
     #The party is missing a key role. What will Alex be?]
     # LGBT Club
     scene bg black
-    alex "Hmm, I wonder what they are doing."
-    alex "Looking into the room, I see a pride flag on the wall. Maybe this is the LGBT club?"
+    "Hmm, I wonder what they are doing."
+    "Looking into the room, I see a pride flag on the wall. Maybe this is the LGBT club?"
     feeniks "HEY!"
     feeniks "Sorry, didn't mean to startle you or anything, but we need another person in our party."
     alex "Umm, party?"
@@ -1086,7 +1094,7 @@ label scene_137: #137
     zaffie "Fine. I take out my club and beat him over the head. Drag him into an alley."
     feeniks "Alright."
     zaffie "Oh, and I take his coin purse."
-    feeniks "Of course you do."
+    feeniks "Of course you do." #[Note to self, ask bobbert if he could do a small edit for an "exasperated" feeniks - SV]
     # LGBT Club
     scene bg black
     misty "That was fun! Alex, you’re going to be coming here in september right? We should all exchange phone numbers."
@@ -1099,31 +1107,32 @@ label scene_137: #137
 label scene_138: #138
     # Campus 1
     scene bg black
-    alex "As I was leaving the clubroom, I see my family walking towards my direction."
+    "As I was leaving the clubroom, I see my family walking towards my direction."
     gregory "Alex, we were just looking for you. Are you all done? Ready to leave?"
     alex "Yeah, what perfect timing, I was just coming to find y’all."
     show sarah relaxed
     sarah "Great, let’s go home. I’m tired from yoga."
-    alex "We make our way to the parking lot to get in our car. Then, we went straight home."
+    "We make our way to the parking lot to get in our car. Then, we went straight home."
 
 label scene_139: #139
     # [Alex’s thoughts fill us in on the drive back and such. They decide to investigate asexuality on the computer.]
     # Bedroom
     scene bg bedroom
-    alex "On the way back home, everyone shared their thoughts on the tour of the university."
-    alex "They all had fun it seems. That’s good."
-    alex "I’m really looking forward to go to St. Paul’s I also enjoyed the company of those weird people playing some DnD stuff today."
-    alex "Speaking of… Misty’s character really resonated with me. This is the first time I've heard of asexuality."
-    alex "I have to go do some research on this topic ASAP."
+    "On the way back home, everyone shared their thoughts on the tour of the university."
+    "They all had fun it seems. That’s good."
+    "I’m really looking forward to go to St. Paul’s I also enjoyed the company of those weird people playing some DnD stuff today."
+    "Speaking of… Misty’s character really resonated with me. This is the first time I've heard of asexuality."
+    "I have to go do some research on this topic ASAP."
 
 label scene_140: #140
     # [Alex searches asexuality on Goggle and finds AVEN and Reddit. They fall asleep thinking that asexuality fits them very well.]
     # Bedroom
     scene bg bedroom
-    alex "I booted up my PC and search “asexual” on Goggle."
-    alex "First thing that I stumbled upon was a website called AVEN, and I browsed through many of the forum threads about how people find out they are asexuals. It seems very much like how I am as well."
-    alex "Apparently, there is a subreddit for asexuality. The internet really has everything now doesn’t it. I need to subscribe and read up on other people’s experiences to compare to my own."
-    alex "After what felt like 5 hours of research on the internet, my life now makes sense. I am asexual."
+    "I booted up my PC and search “asexual” on Goggle."
+    "First thing that I stumbled upon was a website called AVEN, and I browsed through many of the forum threads about how people find out they are asexuals. It seems very much like how I am as well."
+    "Apparently, there is a subreddit for asexuality. The internet really has everything now doesn’t it. I need to subscribe and read up on other people’s experiences to compare to my own."
+    "After what felt like 5 hours of research on the internet, my life now makes sense. I am asexual."
+    
     # [a]More talking, less thinking. More development. MOAR!
     # [b]In particular the scenes while they are watching the movie need work.
     # [c]we prob need to make a male/female version of this. unless alex just talks about relationships in general/
